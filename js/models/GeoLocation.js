@@ -1,8 +1,8 @@
-const API_URL = 'https://ipv4.aykutcevik.com:9443';
-const API_URL_IPv6 = 'https://ipv6.aykutcevik.com:8443';
+const API_URL = 'http://ip-api.com/json';
+const API_URL_IPv6 = 'http://ip-api.com/json';
 class GeoLocation {
     constructor() {
-        this.url = API_URL + '/api/ip';
+        this.url = API_URL + '/';
         this.data = {
             browser: {
                 userAgent: ''
